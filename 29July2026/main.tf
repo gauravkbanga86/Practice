@@ -13,5 +13,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg1" {
   name     = "GB-terraform-rg"
-  location = "East US"
+  location = "West US"
 }
